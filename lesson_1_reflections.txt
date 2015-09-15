@@ -1,0 +1,18 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It saved a lot of time tediously going through all of the program to find exactly which section was different to the previous version of the file. It highlighted which lines in both of the versions were different, and this narrowed my search to find the error considerably.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If you were to make a few changes to your program and it suddenly stops working as it was meant to, and you were unsure how to solve the problem, then reverting back to a previous version of the program when it worked better could be a solution. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros of saving manually are, you can save when there has been a meaningful change made to the program. This reveals a con in the automatic saves, where sometimes it saves in unmeaningful places when the program won't be able to run or in a place where you are mid way through your thought trail. You are able to add a message with your commit describing the changes that have been made, unlike automatic saves where the program just saves it, the date and the time. The main con with manually saving is that sometimes user error may occur, e.g. the user may commit too many times or not enough times, and the majority of the time it comes down to judgement. 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some projects require multiple files in order for them to function, and hence some version control systems allow saving of multiple files. Some version control systems treat each file separately as it is unnecessary to have multiple files, as the majority of the time it is the single file that the project requires with documents.
+
+
+
