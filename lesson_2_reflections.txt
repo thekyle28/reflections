@@ -17,3 +17,7 @@ Branches would be helpful to use when you wish to create an experimental feature
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help me to visualize the structure by showing the arrows for each of the commits' parents, and by also showing the master branches, and where the branches are in the git log history.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is all of the new content from both of the branches before they were seperated. If a line of code was deleted from one branch and not in the other branch, then that line of code will be deleted when the branches are merged. Git can tell which lines of code were in the originally in both branches, by looking back to the previous version when they were not branched. The diagramatical representation is easier to follow, and shows where the commits initially branched, and the latest commits in both of the branches and finally how merging the two branches shows both of its new parents. 
