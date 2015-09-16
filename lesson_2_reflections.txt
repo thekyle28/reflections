@@ -21,3 +21,7 @@ The diagrams help me to visualize the structure by showing the arrows for each o
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result of merging two branches together is all of the new content from both of the branches before they were seperated. If a line of code was deleted from one branch and not in the other branch, then that line of code will be deleted when the branches are merged. Git can tell which lines of code were in the originally in both branches, by looking back to the previous version when they were not branched. The diagramatical representation is easier to follow, and shows where the commits initially branched, and the latest commits in both of the branches and finally how merging the two branches shows both of its new parents. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+If git were to automatically merge for you it would cause some problems such as adding two features that are the same which could cause bugs. A con of always doing merges manually is having to discuss what should be left in the program and what should be deleted, and the program needs to be edited each time. The automatic merging so that could have cons where if one person deleted a line in their program but the other person didn't and their code relied on that line then git would delete that line when it is merged and it would cause bugs.
