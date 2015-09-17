@@ -18,6 +18,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 The main benefit of having a local copy of the of the last known state of the remote is that it allows the user to work offline and still have a saved version of the GitHub repository.
 
+Tip: if you fork a repository and then attempt a pull request it will automatically choose the base pull request as the original repository you forked from. Therefore if you wish to pull request your own forked version of the repository then you need to change this by selecting the drop down of the base.
+
 Commands:
 git push <remote> <branch> | pushes the local branch to the remote.
 git remote | Shows the remote repositories associated with your repository
