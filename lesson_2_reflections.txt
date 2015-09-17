@@ -25,3 +25,5 @@ The result of merging two branches together is all of the new content from both 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
 
 If git were to automatically merge for you it would cause some problems such as adding two features that are the same which could cause bugs. A con of always doing merges manually is having to discuss what should be left in the program and what should be deleted, and the program needs to be edited each time. The automatic merging so that could have cons where if one person deleted a line in their program but the other person didn't and their code relied on that line then git would delete that line when it is merged and it would cause bugs.
+
+use git branch -m <oldname> <newname> to rename a local branch, or use git branch -m <newname> when in the current branch you wish to rename.
