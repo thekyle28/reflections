@@ -8,4 +8,18 @@ You might want to pull changes automatically in case the remote repository is bu
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Forks is essentially a git clone, but it is all external and for use on GitHub's website. Forking a repository on GitHub, clones that repository so that it is available in your GitHub account's repositories. Clones are generally used when you want to clone a repository from GitHub onto your computer. Branching is making a local copy of your current commit. Branching is generally used when you wish to make multiple versions of your project and later merge them. 
+Forks is essentially a git clone, but it is all external and for use on GitHub's website.
+ Forking a repository on GitHub, clones that repository so that it is available in your GitHub account's repositories. 
+ Clones are generally used when you want to clone a repository from GitHub onto your computer. 
+ Branching is making a local copy of your current commit. 
+ Branching is generally used when you wish to make multiple versions of your project and later merge them. 
+
+Commands:
+git push <remote> <branch> | pushes the local branch to the remote.
+git remote | Shows the remote repositories associated with your repository
+git remote -v | v stands for verbose, and shows a more verbose version of git remote.
+git fetch <remote> | updates the local copy of the remote master branch and leaves the local version of your master branch alone.
+git pull <remote> | updates the local repository from the remote.
+
+Tip: When there are two different commits on both the local repository and the GitHub repository git pull = git fetch origin, git merge master origin/master
+
