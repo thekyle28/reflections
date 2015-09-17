@@ -14,5 +14,29 @@ Why do you think some version control systems, like Git, allow saving multiple f
 
 Some projects require multiple files in order for them to function, and hence some version control systems allow saving of multiple files. Some version control systems treat each file separately as it is unnecessary to have multiple files, as the majority of the time it is the single file that the project requires with documents.
 
+How can you use git log and git diff to view the history of files?
 
+Git log can be used to see the history of all of the commits made for files along with the comments on what was changed in the program during that commit. 
+Git diff can be used to view the differences between two commits. Including the additions and deletions between them. 
 
+How might using version control make you more confident to make changes that could break something?
+
+Using version control would make me more confident as it would allow me to play around with the program more freely, knowing that I will be able to revert back to a previous version of the file. Therefore allowing me to learn more about what different settings and other changes make. 
+
+How do I want to use Git?
+
+I would like to use git so that it will allow me to revert back to previous working versions of projects incase I create a bug that I am unable to solve.
+
+Hint/Tip 
+When using git diff, the first argument is considered to be the original, and the second argument is considered to be the new file. 
+
+(The following was taken from Denyo's reflections on GitHub)
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!

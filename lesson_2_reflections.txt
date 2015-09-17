@@ -27,3 +27,17 @@ What are the pros and cons of Git's automatic merging vs. always doing merges ma
 If git were to automatically merge for you it would cause some problems such as adding two features that are the same which could cause bugs. A con of always doing merges manually is having to discuss what should be left in the program and what should be deleted, and the program needs to be edited each time. The automatic merging so that could have cons where if one person deleted a line in their program but the other person didn't and their code relied on that line then git would delete that line when it is merged and it would cause bugs.
 
 use git branch -m <oldname> <newname> to rename a local branch, or use git branch -m <newname> when in the current branch you wish to rename.
+
+(The following was taken from Denyo's reflections on GitHub)
+git add  |    Add a file to the staging area
+git commit  |    Commit the files from the staging area to the repository 
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository    
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git reset --hard  |    Undo all changes! There is no rollback for this, so be carefull!
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git log --graph --oneline <branch1> <branch2>  |    Show a visual representation of the commit history within different branches
+git checkout -b new_branch_name  |    Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.
