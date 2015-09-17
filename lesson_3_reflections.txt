@@ -12,7 +12,11 @@ Forks is essentially a git clone, but it is all external and for use on GitHub's
  Forking a repository on GitHub, clones that repository so that it is available in your GitHub account's repositories. 
  Clones are generally used when you want to clone a repository from GitHub onto your computer. 
  Branching is making a local copy of your current commit. 
- Branching is generally used when you wish to make multiple versions of your project and later merge them. 
+ Branching is generally used when you wish to make multiple versions of your project and later merge them.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The main benefit of having a local copy of the of the last known state of the remote is that it allows the user to work offline and still have a saved version of the GitHub repository.
 
 Commands:
 git push <remote> <branch> | pushes the local branch to the remote.
@@ -22,4 +26,3 @@ git fetch <remote> | updates the local copy of the remote master branch and leav
 git pull <remote> | updates the local repository from the remote.
 
 Tip: When there are two different commits on both the local repository and the GitHub repository git pull = git fetch origin, git merge master origin/master
-
