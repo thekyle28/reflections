@@ -29,6 +29,7 @@ If git were to automatically merge for you it would cause some problems such as 
 use git branch -m <oldname> <newname> to rename a local branch, or use git branch -m <newname> when in the current branch you wish to rename.
 
 (The following was taken from Denyo's reflections on GitHub)
+Commands:
 git add  |    Add a file to the staging area
 git commit  |    Commit the files from the staging area to the repository 
 git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository    
