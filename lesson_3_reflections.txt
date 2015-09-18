@@ -20,6 +20,10 @@ The main benefit of having a local copy of the of the last known state of the re
 
 Tip: if you fork a repository and then attempt a pull request it will automatically choose the base pull request as the original repository you forked from. Therefore if you wish to pull request your own forked version of the repository then you need to change this by selecting the drop down of the base.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would collaborate without Git or GitHub by using another cloud service such as OneDrive or Google Drive and copy different versions of the project onto the drive for other people to download. Or if I were to work with someone who is local to me, then we could share the project via USB. The only part that would be easier that using Git or GitHub, would be the fact you wouldn't have to add the files to the staging area, you would just have to download the files from the cloud, or you would just have to insert the USB into the other person's computer and they could then copy it. However every other part would be harder, such as the fact it would be more difficult to merge changes without causing a bug. It is harder to branch the program, as you would have to make several copies, and then make changes. It would also use a lot of memory saving that many copies of the same program, rather than the metadata way of storing the history of that project. 
+
 Commands:
 git push <remote> <branch> | pushes the local branch to the remote.
 git remote | Shows the remote repositories associated with your repository
